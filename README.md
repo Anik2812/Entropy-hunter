@@ -14,22 +14,6 @@ Entropy Hunter is an **all-in-one forensic tool** for detecting hidden encrypted
 
 ---
 
-## 📸 Output Preview
-
-### Full Disk Entropy Heatmap + Byte Frequency Distribution
-
-![Entropy Heatmap and Alert Output](output_demo.png)
-
-> *The red cluster at ~12–22 MiB shows a 10 MiB hidden VeraCrypt volume with mean entropy 7.95, flatness score 0.981, and chi-square p=0.42 — all consistent with AES-256 ciphertext.*
-
-### Terminal Output
-
-![Terminal Output](terminal_output.png)
-
-> *Entropy Hunter prints a full forensic summary per alert: byte offset, sector number, size, mean entropy, standard deviation, chi-square result, byte distribution flatness, sector alignment, and a confidence score out of 100.*
-
----
-
 ## ✨ What's New in v4.0
 
 | Feature | Description |
